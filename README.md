@@ -15,4 +15,4 @@ export LOCAL_PATH=~/Documents/projects/my-folder;
 - Start Docker.
 - Run `sh start.sh`.
 
-If you plan on running this Docker setup on multiple projects, **you should rename the container name as specified inside the start.sh file** so that a different container that specifies a bind mount with the specific path is used for the project.
+If you plan on running this Docker setup on multiple projects, **you should rename the container as specified inside the start.sh file** (which is named as `bundler` currently) so that a different container that specifies a bind mount with the specific path is used for the project.
