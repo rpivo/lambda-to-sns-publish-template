@@ -2,6 +2,12 @@
 
 A simple template for publishing to an AWS SNS topic using a Boto3 Lambda function.
 
+### Why use Docker?
+
+If you're using a non-Linux operating system as your development machine, you'll need to bundle Python dependencies for Linux somehow. This setup uses the `amazonlinux` Docker image to bundle Python dependencies for Lambda.
+
+### Setup
+
 To build the Lambda zip:
 
 - Create an environment file inside the sh folder called **env.sh** that exports a `LOCAL_PATH` variable representing the current directory where the build will occur. Ex:
