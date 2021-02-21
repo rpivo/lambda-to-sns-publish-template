@@ -4,5 +4,12 @@ A simple template for publishing to an AWS SNS topic using a Boto3 Lambda functi
 
 To build the Lambda zip:
 
+- Create an environment file that exports a `LOCAL_PATH` variable representing the current directory where the build will occur. Ex:
+
+```sh
+export LOCAL_PATH=~/Documents/projects/my-folder;
+```
+
+- Add Python package dependencies to build.sh (see `# install python dependencies` section).
 - Start Docker.
 - Run `sh start.sh`.
