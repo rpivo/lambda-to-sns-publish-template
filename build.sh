@@ -1,6 +1,6 @@
 # prepare environment
 yum update -y;
-yum install -y gcc gcc72-c++ gzip libxml2-dev libxslt-dev make python-pip tar wget zip;
+yum install -y zip;
 amazon-linux-extras install -y python3.8;
 python3.8 -m pip install -U pip;
 
